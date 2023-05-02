@@ -906,18 +906,18 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+.contact .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -966,30 +966,29 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form .form-group {
+.contact .form-group {
   margin-bottom: 15px;
 }
 
-.contact .php-email-form label {
+.contact label {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact textarea {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact button[type=submit] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -998,7 +997,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact button[type=submit]:hover {
   background: #37b3ed;
 }
 
@@ -1092,3 +1091,4 @@ section {
     padding-right: 20px 15px;
   }
 }
+
